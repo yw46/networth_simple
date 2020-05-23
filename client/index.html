@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Hello, World!</title>
+  </head>
+
+  <body>
+    <h1>Hello, World!</h1>
+    <p style="display: inline;">Total Assets: </p>
+    <p id="myTotalAssets" style="display:inline;"></p>
+    
+    <br />
+    
+    <p style="display: inline;">Total Liabilities: </p>
+    <p id="myTotalLiabilities" style="display:inline;"></p>
+    
+    <br />
+    
+    <p style="display: inline;">Others: </p>
+    <p id="myTotalOthers" style="display: inline;"></p>
+    
+    <br />
+    
+    <p style="display: inline;">Total Owned: </p>
+    <p id="myTotalOwned" style="display: inline"></p>
+    
+    <br /><br />
+    
+    <button onclick="insertItem('Assets')">Add new Assets</button>
+
+    <ul id="myAssets">
+
+    </ul>
+    
+    <button onclick="insertItem('Liabilities')">Add new Liabilities</button>
+    
+    <ul id="myLiabilities">
+      
+    </ul>
+    
+    <button onclick="insertItem('Others')">Add Others?</button>
+    
+    <ul id="myOthers">
+    
+    </ul>
+    
+    <script src="js/custom.js"></script>
+  </body>
+</html>
