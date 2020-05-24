@@ -25,6 +25,10 @@ Open index.html located in the /client folder.
 
 You will need to press save for each of the new items created or edited. A status of "Current" means such item is 
 active, whereas changing the status to "Voided" will simply void the item, meaning that such item will NOT be calculated
-towards the total number.
+towards the total number. To check the items saved, go to
+
+```
+localhost:3000/items
+```
 
 The data is saved on the server side. No database was used (for now).
